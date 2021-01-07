@@ -3,8 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SmartSchool.WebAPI.Migrations
 {
+///
     public partial class init : Migration
     {
+///
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -413,6 +415,7 @@ namespace SmartSchool.WebAPI.Migrations
                 column: "ProfessorId");
         }
 
+///
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

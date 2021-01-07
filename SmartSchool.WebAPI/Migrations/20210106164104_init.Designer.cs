@@ -12,6 +12,7 @@ namespace SmartSchool.WebAPI.Migrations
     [Migration("20210106164104_init")]
     partial class init
     {
+///
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618

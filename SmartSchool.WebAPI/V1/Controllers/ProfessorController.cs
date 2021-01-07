@@ -4,31 +4,33 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SmartSchool.WebAPI.Data;
-using SmartSchool.WebAPI.Dtos;
+using SmartSchool.WebAPI.V1.Dtos;
 using SmartSchool.WebAPI.Models;
 
-namespace SmartSchool.WebAPI.Controllers
+namespace SmartSchool.WebAPI.V1.Controllers
 {
+///
     [ApiController]
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class ProfessorController : ControllerBase
     {
         private readonly IRepository _repo;
         private readonly IMapper _mapper;
-
+///
         public ProfessorController(IRepository repo, IMapper mapper)
         {
             _mapper = mapper;
             _repo = repo;
         }
-
+///
         [HttpGet]
         public IActionResult Get()
         {
             var professores = _repo.GetAllProfessores(true);
             return Ok(_mapper.Map<IEnumerable<ProfessorDto>>(professores));
         }
-
+///
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -39,7 +41,7 @@ namespace SmartSchool.WebAPI.Controllers
 
             return Ok(professorDto);
         }
-
+///
         [HttpPost]
         public IActionResult Post(ProfessorRegistrarDto model)
         {
@@ -50,7 +52,7 @@ namespace SmartSchool.WebAPI.Controllers
 
             return BadRequest("Professor não cadastrado");
         }
-
+///
         [HttpPut("{id}")]
         public IActionResult Put(int id, ProfessorRegistrarDto model)
         {
@@ -64,7 +66,7 @@ namespace SmartSchool.WebAPI.Controllers
 
             return BadRequest("Professor não atualizado");
         }
-
+///
         [HttpPatch("{id}")]
         public IActionResult Patch(int id, ProfessorRegistrarDto model)
         {
@@ -78,7 +80,7 @@ namespace SmartSchool.WebAPI.Controllers
             
             return BadRequest("Professor não atualizado");
         }
-
+///
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

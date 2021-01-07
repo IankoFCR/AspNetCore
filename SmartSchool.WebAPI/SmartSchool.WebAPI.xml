@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmartSchool.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:SmartSchool.WebAPI.Data.IRepository">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.IRepository.Add``1(``0)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.IRepository.Update``1(``0)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.IRepository.Delete``1(``0)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.IRepository.SaveChanges">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.IRepository.GetAllAlunos(System.Boolean)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.IRepository.GetAllAlunosByDisciplinaId(System.Int32,System.Boolean)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.IRepository.GetAlunoById(System.Int32,System.Boolean)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.IRepository.GetAllProfessores(System.Boolean)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.IRepository.GetAllProfessoresByDisciplinaId(System.Int32,System.Boolean)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.IRepository.GetProfessorById(System.Int32,System.Boolean)">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Data.Repository">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.#ctor(SmartSchool.WebAPI.Data.SmartContext)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.Add``1(``0)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.Update``1(``0)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.Delete``1(``0)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.SaveChanges">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.GetAllAlunos(System.Boolean)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.GetAllAlunosByDisciplinaId(System.Int32,System.Boolean)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.GetAlunoById(System.Int32,System.Boolean)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.GetAllProfessores(System.Boolean)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.GetAllProfessoresByDisciplinaId(System.Int32,System.Boolean)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.Repository.GetProfessorById(System.Int32,System.Boolean)">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Data.SmartContext">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.SmartContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{SmartSchool.WebAPI.Data.SmartContext})">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Data.SmartContext.Alunos">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Data.SmartContext.AlunosCursos">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Data.SmartContext.AlunosDisciplinas">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Data.SmartContext.Cursos">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Data.SmartContext.Disciplinas">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Data.SmartContext.Professores">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Data.SmartContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Helpers.DateTimeExtensions">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Helpers.DateTimeExtensions.GetCurrentAge(System.DateTime)">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Migrations.init">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Models.Aluno">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.Aluno.#ctor">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.Aluno.#ctor(System.Int32,System.Int32,System.String,System.String,System.String,System.DateTime)">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Aluno.Id">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Aluno.Matricula">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Aluno.Nome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Aluno.Sobrenome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Aluno.Telefone">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Aluno.DataNasc">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Aluno.DataIni">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Aluno.DataFim">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Aluno.Ativo">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Aluno.AlunosDisciplinas">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Models.AlunoCurso">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.AlunoCurso.#ctor">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.AlunoCurso.#ctor(System.Int32,System.Int32)">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoCurso.DataIni">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoCurso.DataFim">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoCurso.AlunoId">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoCurso.Aluno">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoCurso.CursoId">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoCurso.Curso">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Models.AlunoDisciplina">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.AlunoDisciplina.#ctor">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.AlunoDisciplina.#ctor(System.Int32,System.Int32)">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoDisciplina.DataIni">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoDisciplina.DataFim">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoDisciplina.Nota">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoDisciplina.AlunoId">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoDisciplina.Aluno">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoDisciplina.DisciplinaId">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.AlunoDisciplina.Disciplina">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Models.Curso">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.Curso.#ctor">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.Curso.#ctor(System.Int32,System.String)">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Curso.Id">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Curso.Nome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Curso.Disciplinas">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Models.Disciplina">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.Disciplina.#ctor">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.Disciplina.#ctor(System.Int32,System.String,System.Int32,System.Int32)">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Disciplina.Id">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Disciplina.Nome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Disciplina.CargaHoraria">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Disciplina.PrerequisitoId">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Disciplina.Prerequisito">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Disciplina.ProfessorId">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Disciplina.Professor">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Disciplina.CursoId">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Disciplina.Curso">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Disciplina.AlunosDisciplinas">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Models.Professor">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.Professor.#ctor">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Models.Professor.#ctor(System.Int32,System.Int32,System.String,System.String)">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Professor.Id">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Professor.Registro">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Professor.Nome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Professor.Sobrenome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Professor.Telefone">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Professor.DataIni">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Professor.DataFim">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Professor.Ativo">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.Models.Professor.Disciplinas">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.Program">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Program.Main(System.String[])">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.Program.CreateHostBuilder(System.String[])">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V1.Controllers.AlunoController">
+            <summary>
+            Versão 1 do meu controlador de Alunos
+            </summary>
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.AlunoController.#ctor(SmartSchool.WebAPI.Data.IRepository,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="repo"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.AlunoController.Get">
+            <summary>
+            Método responsável para retornar todos os meus alunos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.AlunoController.GetById(System.Int32)">
+            <summary>
+            Método responsável por retonar apenas um Aluno por meio do Código ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.AlunoController.Post(SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.AlunoController.Put(System.Int32,SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.AlunoController.Patch(System.Int32,SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.AlunoController.Delete(System.Int32)">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V1.Controllers.ProfessorController">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.ProfessorController.#ctor(SmartSchool.WebAPI.Data.IRepository,AutoMapper.IMapper)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.ProfessorController.Get">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.ProfessorController.GetById(System.Int32)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.ProfessorController.Post(SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.ProfessorController.Put(System.Int32,SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.ProfessorController.Patch(System.Int32,SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Controllers.ProfessorController.Delete(System.Int32)">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V1.Dtos.AlunoDto">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoDto.Id">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoDto.Matricula">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoDto.Nome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoDto.Telefone">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoDto.Idade">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoDto.DataIni">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoDto.Ativo">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto.Id">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto.Matricula">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto.Nome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto.Sobrenome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto.Telefone">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto.DataNasc">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto.DataIni">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto.DataFim">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.AlunoRegistrarDto.Ativo">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V1.Dtos.ProfessorDto">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorDto.Id">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorDto.Registro">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorDto.Nome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorDto.Telefone">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorDto.DataIni">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorDto.Ativo">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto.Id">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto.Registro">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto.Nome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto.Sobrenome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto.Telefone">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto.DataIni">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto.DataFim">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V1.Dtos.ProfessorRegistrarDto.Ativo">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V1.Profiles.SmartSchoolProfile">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V1.Profiles.SmartSchoolProfile.#ctor">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V2.Controllers.AlunoController">
+            <summary>
+            Versão 1 do meu controlador de Alunos
+            </summary>
+        </member>
+        <member name="M:SmartSchool.WebAPI.V2.Controllers.AlunoController.#ctor(SmartSchool.WebAPI.Data.IRepository,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="repo"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:SmartSchool.WebAPI.V2.Controllers.AlunoController.Get">
+            <summary>
+            Método responsável para retornar todos os meus alunos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.WebAPI.V2.Controllers.AlunoController.GetById(System.Int32)">
+            <summary>
+            Método responsável por retonar apenas um Aluno por meio do Código ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.WebAPI.V2.Controllers.AlunoController.Post(SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V2.Controllers.AlunoController.Put(System.Int32,SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V2.Controllers.AlunoController.Patch(System.Int32,SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto)">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V2.Controllers.AlunoController.Delete(System.Int32)">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V2.Dtos.AlunoDto">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoDto.Id">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoDto.Matricula">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoDto.Nome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoDto.Telefone">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoDto.Idade">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoDto.DataIni">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoDto.Ativo">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto.Id">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto.Matricula">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto.Nome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto.Sobrenome">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto.Telefone">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto.DataNasc">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto.DataIni">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto.DataFim">
+            
+        </member>
+        <member name="P:SmartSchool.WebAPI.V2.Dtos.AlunoRegistrarDto.Ativo">
+            
+        </member>
+        <member name="T:SmartSchool.WebAPI.V2.Profiles.SmartSchoolProfile">
+            
+        </member>
+        <member name="M:SmartSchool.WebAPI.V2.Profiles.SmartSchoolProfile.#ctor">
+            
+        </member>
+    </members>
+</doc>
