@@ -77,7 +77,7 @@ namespace SmartSchool.WebAPI
                             },
                             Contact = new Microsoft.OpenApi.Models.OpenApiContact
                             {
-                                Name = "Vinícius de Andrade",
+                                Name = "Ianko Felipe Cavalacante Rocha",
                                 Email = "",
                                 Url = new Uri("http://programadamente.com")
                             }
