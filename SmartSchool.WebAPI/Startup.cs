@@ -79,7 +79,7 @@ namespace SmartSchool.WebAPI
                             {
                                 Name = "Ianko Felipe Cavalacante Rocha",
                                 Email = "",
-                                Url = new Uri("http://programadamente.com")
+                                Url = new Uri("http://github.com/IankoFCR")
                             }
                         }    
                     );
