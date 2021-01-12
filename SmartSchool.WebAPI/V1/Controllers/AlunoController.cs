@@ -35,7 +35,7 @@ namespace SmartSchool.WebAPI.V1.Controllers
         }
 
         /// <summary>
-        /// Método responsável para retornar todos os meus alunos
+        /// 👍 Método responsável para retornar todos os meus alunos
         /// </summary>
         /// <returns></returns>
         [HttpGet]

@@ -330,7 +330,7 @@
         </member>
         <member name="M:SmartSchool.WebAPI.V1.Controllers.AlunoController.Get(SmartSchool.WebAPI.Helpers.PageParams)">
             <summary>
-            Método responsável para retornar todos os meus alunos
+            👍 Método responsável para retornar todos os meus alunos
             </summary>
             <returns></returns>
         </member>
